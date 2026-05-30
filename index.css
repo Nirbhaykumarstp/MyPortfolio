@@ -78,6 +78,12 @@ a{
     width: 50%;
     height: 50%;
 }
+#connectionlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 footer{
     background-color: black;
 }
