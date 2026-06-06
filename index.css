@@ -39,13 +39,15 @@ h2 {
 
 li {
     list-style: none;
-    padding: 5%;
+    padding: 7%;
     font-size: medium;
 
 }
+
 li:hover {
     border: 2px solid #42bd42;
     border-radius: 6px;
+    box-shadow: 0 0 15px 5px rgba(3, 165, 73, 0.6);
 }
 
 a {
@@ -58,7 +60,7 @@ a {
     width: 20%;
     height: 20%;
     /* border: 8px solid #4adb4a; */
-    box-shadow: 0 0 15px 5px rgba(39, 212, 117, 0.6);
+    box-shadow: 0 0 10px 5px rgba(4, 187, 102, 0.87);
 }
 
 .content {
@@ -71,8 +73,9 @@ a {
     margin: 5%;
     padding: 3%;
 }
-.content:hover{
-    box-shadow: 0 0 15px 5px rgba(39, 212, 117, 0.6);
+
+.content:hover {
+    box-shadow: 0 0 15px 5px rgba(39, 212, 117, 0.863);
 }
 
 #myinfocontent {
@@ -104,7 +107,7 @@ a {
     text-align: center;
 }
 
-#myfooter{
+#myfooter {
     background-color: rgba(12, 7, 7, 0.178);
     padding: 3%;
     display: flex;
